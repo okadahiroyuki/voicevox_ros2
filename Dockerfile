@@ -72,6 +72,7 @@ RUN . /opt/ros/jazzy/setup.sh && \
 ENV ROS_DISTRO=jazzy
 ENV VOICEVOX_ENGINE_DIR=/voicevox_engine
 
+
 # 使い方:
 #   docker run --rm -it --device /dev/snd \
 #     voicevox_ros2:latest \
