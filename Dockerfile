@@ -79,4 +79,11 @@ ENV VOICEVOX_ENGINE_DIR=/voicevox_engine
 #
 # コンテナ内で:
 #   source /opt/ros/jazzy/setup.bash
+#   source /ros2_voicevox_ws/install/setup.bash
+#   ros2 run voicevox_ros2 tts_node \
+#      --ros-args \
+#        -p engine_dir:=${VOICEVOX_ENGINE_DIR} \
+#        -p vvm_file:=0.vvm \
+#        -p style_id:=0
 CMD ["bash"]
+

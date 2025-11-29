@@ -11,3 +11,4 @@ source /ros2_voicevox_ws/.venv/bin/activate
 source /ros2_voicevox_ws/install/setup.bash
 
 exec "$@"
+
